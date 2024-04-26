@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background-image: linear-gradient(45deg, rgb(29, 29, 223), hsl(207, 100%, 50%));
+}
+div  {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+button {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+
+}
+button:hover{
+    background-color: rgb(3, 36, 184);
+}
